@@ -1,0 +1,31 @@
+{
+    "name": "POCEntity",
+    "type": "record",
+    "namespace": "com.kinsaleins.avro",
+    "fields": [
+        {
+            "name": "idt_enterprise_txn_entity",
+            "type": "string"
+        },
+        {
+            "name": "num_enterprise_txn_entity_edition",
+            "type": "int"
+        },
+        {
+            "name": "num_enterprise_txn_entity_version",
+            "type": "int"
+        },
+        {
+            "name": "dte_event_occurred",
+            "type": "string"
+        },
+        {
+            "name": "nme_creator",
+            "type": "string"
+        },
+        {
+            "name": "nme_event_type",
+            "type": "string"
+        }
+    ]
+}
